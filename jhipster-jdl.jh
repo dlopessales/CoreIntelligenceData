@@ -1,0 +1,55 @@
+entity Levantamento {
+	nome String,
+    descricao String,
+    dataCriacao Instant,
+    usuarioCriacao String
+}
+
+entity Premissa {
+	descricao String
+}
+
+entity Empreendimento {
+	nome String,
+    rua String,
+    numero Integer,
+    bairro String,
+    cidade String,
+    construtoraEmpreendedora String,
+    quantidadeQuartos Integer,
+    inicioComercializacao Instant,
+    entregaUnidade Instant,
+    faseObra FaseObra,
+    tipoUnidade TipoUnidade,
+    quantidadeUnidades Integer,
+    quantidadeUnidadesVendidas Integer,
+    estoque Integer,
+    percentualVendido Long,
+    precoMedio Long,
+    areaUnidade Long,
+    formaPagamento String,
+    caracterizacaoAreaLazer String,
+    infrestruturaSeguranca String,
+    nivelAcabamento String,
+}
+
+enum FaseObra {
+	CONSTRUCAO, PRONTO, OUTRO
+}
+
+enum TipoUnidade {
+	LOFT, STUDIO, OUTRO
+}
+
+relationship OneToMany {
+	Levantamento{premissas} to Premissa,
+}
+
+relationship OneToMany {
+	Levantamento{empreedimentos} to Empreendimento,
+}
+
+paginate Levantamento, Premissa, Empreendimento with pagination
+
+service all with serviceImpl
+

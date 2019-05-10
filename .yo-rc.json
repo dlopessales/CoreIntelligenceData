@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "br.com.coreintelligence",
+      "nativeLanguage": "pt-br"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "CoreIntelligenceData",
+    "packageName": "br.com.coreintelligence",
+    "packageFolder": "br/com/coreintelligence",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTIxNmE3NTk2ZmEwZGY5NjU5MmJiMGFhZGMxZDA5OWYyYmNjZjcwZGM2MWI3NzM2N2NkZmEyNzkwZjkzOGEwZGY5NGI2ZDY1NzI0NzRkMGJjNDVlYzE1NzFmN2M5NzMxMjM3YjY2OGE3ODU3MmE1Mzk3ZmUyZDUxNDM3YzQxZTg=",
+    "clientFramework": "react",
+    "clientTheme": "yeti",
+    "clientThemeVariant": "primary",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "languages": ["pt-br", "en", "es"]
+  }
+}
