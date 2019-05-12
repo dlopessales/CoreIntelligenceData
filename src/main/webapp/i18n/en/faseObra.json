@@ -1,0 +1,10 @@
+{
+  "coreIntelligenceDataApp": {
+    "FaseObra": {
+      "null": "",
+      "CONSTRUCAO": "CONSTRUCAO",
+      "PRONTO": "PRONTO",
+      "OUTRO": "OUTRO"
+    }
+  }
+}

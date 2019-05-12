@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Premissa.
+    -->
+    <changeSet id="20190511141715-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="levantamento_id"
+                                 baseTableName="premissa"
+                                 constraintName="fk_premissa_levantamento_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="levantamento"/>
+
+    </changeSet>
+</databaseChangeLog>

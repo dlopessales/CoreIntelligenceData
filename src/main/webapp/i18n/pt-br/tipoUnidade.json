@@ -1,0 +1,10 @@
+{
+  "coreIntelligenceDataApp": {
+    "TipoUnidade": {
+      "null": "",
+      "LOFT": "LOFT",
+      "STUDIO": "STUDIO",
+      "OUTRO": "OUTRO"
+    }
+  }
+}

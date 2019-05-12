@@ -1,0 +1,22 @@
+{
+  "coreIntelligenceDataApp": {
+    "premissa": {
+      "home": {
+        "title": "Premissas",
+        "createLabel": "Crear nuevo Premissa",
+        "createOrEditLabel": "Crear o editar Premissa"
+      },
+      "created": "Un nuevo Premissa ha sido creado con el identificador {{ param }}",
+      "updated": "Un Premissa ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Premissa ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Premissa {{ id }}?"
+      },
+      "detail": {
+        "title": "Premissa"
+      },
+      "descricao": "Descricao",
+      "levantamento": "Levantamento"
+    }
+  }
+}

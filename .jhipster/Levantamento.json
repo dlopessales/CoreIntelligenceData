@@ -1,0 +1,44 @@
+{
+    "name": "Levantamento",
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataCriacao",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "usuarioCriacao",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "premissa",
+            "otherEntityRelationshipName": "levantamento",
+            "relationshipName": "premissas"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "empreendimento",
+            "otherEntityRelationshipName": "levantamento",
+            "relationshipName": "empreedimentos"
+        }
+    ],
+    "changelogDate": "20190511141714",
+    "entityTableName": "levantamento",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,42 @@
+{
+  "coreIntelligenceDataApp": {
+    "empreendimento": {
+      "home": {
+        "title": "Empreendimentos",
+        "createLabel": "Criar novo Empreendimento",
+        "createOrEditLabel": "Criar ou editar Empreendimento"
+      },
+      "created": "Um novo Empreendimento foi criado com o identificador {{ param }}",
+      "updated": "Um Empreendimento foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Empreendimento foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Empreendimento {{ id }}?"
+      },
+      "detail": {
+        "title": "Empreendimento"
+      },
+      "nome": "Nome",
+      "rua": "Rua",
+      "numero": "Numero",
+      "bairro": "Bairro",
+      "cidade": "Cidade",
+      "construtoraEmpreendedora": "Construtora Empreendedora",
+      "quantidadeQuartos": "Quantidade Quartos",
+      "inicioComercializacao": "Inicio Comercializacao",
+      "entregaUnidade": "Entrega Unidade",
+      "faseObra": "Fase Obra",
+      "tipoUnidade": "Tipo Unidade",
+      "quantidadeUnidades": "Quantidade Unidades",
+      "quantidadeUnidadesVendidas": "Quantidade Unidades Vendidas",
+      "estoque": "Estoque",
+      "percentualVendido": "Percentual Vendido",
+      "precoMedio": "Preco Medio",
+      "areaUnidade": "Area Unidade",
+      "formaPagamento": "Forma Pagamento",
+      "caracterizacaoAreaLazer": "Caracterizacao Area Lazer",
+      "infrestruturaSeguranca": "Infrestrutura Seguranca",
+      "nivelAcabamento": "Nivel Acabamento",
+      "levantamento": "Levantamento"
+    }
+  }
+}

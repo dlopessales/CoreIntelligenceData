@@ -1,0 +1,26 @@
+{
+  "coreIntelligenceDataApp": {
+    "levantamento": {
+      "home": {
+        "title": "Levantamentos",
+        "createLabel": "Crear nuevo Levantamento",
+        "createOrEditLabel": "Crear o editar Levantamento"
+      },
+      "created": "Un nuevo Levantamento ha sido creado con el identificador {{ param }}",
+      "updated": "Un Levantamento ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Levantamento ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Levantamento {{ id }}?"
+      },
+      "detail": {
+        "title": "Levantamento"
+      },
+      "nome": "Nome",
+      "descricao": "Descricao",
+      "dataCriacao": "Data Criacao",
+      "usuarioCriacao": "Usuario Criacao",
+      "premissas": "Premissas",
+      "empreedimentos": "Empreedimentos"
+    }
+  }
+}

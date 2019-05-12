@@ -1,0 +1,108 @@
+{
+    "name": "Empreendimento",
+    "fields": [
+        {
+            "fieldName": "nome",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "rua",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numero",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "bairro",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cidade",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "construtoraEmpreendedora",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "quantidadeQuartos",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "inicioComercializacao",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "entregaUnidade",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "faseObra",
+            "fieldType": "FaseObra",
+            "fieldValues": "CONSTRUCAO,PRONTO,OUTRO"
+        },
+        {
+            "fieldName": "tipoUnidade",
+            "fieldType": "TipoUnidade",
+            "fieldValues": "LOFT,STUDIO,OUTRO"
+        },
+        {
+            "fieldName": "quantidadeUnidades",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "quantidadeUnidadesVendidas",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "estoque",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "percentualVendido",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "precoMedio",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "areaUnidade",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "formaPagamento",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "caracterizacaoAreaLazer",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "infrestruturaSeguranca",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nivelAcabamento",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "levantamento",
+            "otherEntityName": "levantamento",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190511141716",
+    "entityTableName": "empreendimento",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
